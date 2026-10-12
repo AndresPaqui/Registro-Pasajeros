@@ -5,7 +5,7 @@ public class Ventana extends JFrame {
     private final Cola cola = new Cola();
     private final JTextField txtNombre = new JTextField(14);
     private final JSpinner spiAsiento =
-            new JSpinner(new SpinnerNumberModel(1, 1, 30, 1));
+            new JSpinner(new SpinnerNumberModel(1, 1, 31, 1));
     private final JComboBox<String> cboTipo = new JComboBox<>(
             new String[]{"ECONOMICA", "EJECUTIVA", "PRIMERA CLASE"});
     private final JSpinner spiConsulta =
