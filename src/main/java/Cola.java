@@ -92,7 +92,19 @@ public class Cola {
         }
 
         Pasajero pasajeroEncontrado = null;
-        return pasajeroEncontrado;
+        for (Pasajero p : coleccion) {
+            if (p.getNumeroAsiento() == asiento) {
+                pasajeroEncontrado = p;
+                break;
+            }
+        }
+
+        if (pasajeroEncontrado == null) {
+            throw new NoSuchElementException(
+                    "No existe un pasajero con el asiento " + asiento);
+        }
+
+        coleccion.remove(pasajeroEncontrado);
     }
 
     @Override
