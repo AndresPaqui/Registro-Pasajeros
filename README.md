@@ -144,7 +144,7 @@ Las pruebas verifican el modelo; esta demostración comprueba que los botones mu
 
 | Integrante | Usuario de GitHub | Qué desarrolló | Enlace a su commit |
 |---|---|---|---|
-| Por completar | Por completar | Por completar | Por completar |
+| Andres Paqui | PatoTactico | Implementación del método buscarPorAsiento en Cola "*R2*"| Por completar |
 
 Cada estudiante debe subir su aporte con su cuenta y comprobar que GitHub lo muestre como autor. Si utilizan Git local, el correo configurado debe estar asociado a esa cuenta. No compartir cuentas. No es obligatorio usar ramas o pull requests: pueden trabajar por turnos e integrar sus cambios, conservando los aportes individuales.
 

@@ -9,7 +9,7 @@ public class Ventana extends JFrame {
     private final JComboBox<String> cboTipo = new JComboBox<>(
             new String[]{"ECONOMICA", "EJECUTIVA", "PRIMERA CLASE"});
     private final JSpinner spiConsulta =
-            new JSpinner(new SpinnerNumberModel(1, 1, 30, 1));
+            new JSpinner(new SpinnerNumberModel(1, 1, 31, 1));
     private final JTextArea txtListado = new JTextArea(12, 55);
     private final JLabel lblCantidad = new JLabel();
     private final JLabel lblMensaje = new JLabel("Registre un pasajero para comenzar.");
