@@ -86,8 +86,13 @@ public class Cola {
     }
 
     public Pasajero cancelarPorAsiento(int asiento) {
-        // TODO R3: retirar únicamente al indicado y conservar el orden restante.
-        throw new UnsupportedOperationException("Pendiente implementar R3: cancelación");
+        if (asiento < 1 || asiento > 30) {
+            throw new IllegalArgumentException(
+                    "El asiento debe estar entre 1 y 30");
+        }
+
+        Pasajero pasajeroEncontrado = null;
+        return pasajeroEncontrado;
     }
 
     @Override
