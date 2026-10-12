@@ -147,9 +147,6 @@ Las pruebas verifican el modelo; esta demostración comprueba que los botones mu
 | Andres Paqui   | PatoTactico       | Implementación del método buscarPorAsiento en Cola "*R2*" | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/f1889a489434d5a983bf360bc5708a91743caee9) |
 | Steven Vaca    | Stevenzzv         | Validacion de datos en cancelación de Pasajero"*R3*"      | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/98bc9e3c5541687943c5ac50c82f502e593b9268) |
 | Kevin Quinatoa | KevinQuinatoa     | Validacion del asiento repetido"*R1*"                     | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/e898ec594dc79d48089bc0d87b42b28ace72e582) |
-| Valeria Caceres | valeria5c     | Implementando el metodo posicionPorAsiento "*R2*"                    | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/00e5607b6fa469e5ae65c4c9443ef56e41caf943) |
-| Jostin Saca | JostinSaca     | validar el nombre y el rango del asiento.                   | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/77c9680ef050628898b238153bad7e24acda0d75) |
-| Rafaela Ludeña | RafLu11   | Implementación: Bucle para retorno del N° de asiento y exepcion del caso | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/9d0211796f7328911296de07d8def55027e2d7da) |
 
 Cada estudiante debe subir su aporte con su cuenta y comprobar que GitHub lo muestre como autor. Si utilizan Git local, el correo configurado debe estar asociado a esa cuenta. No compartir cuentas. No es obligatorio usar ramas o pull requests: pueden trabajar por turnos e integrar sus cambios, conservando los aportes individuales.
 
