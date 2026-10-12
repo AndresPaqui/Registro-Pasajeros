@@ -142,9 +142,10 @@ Las pruebas verifican el modelo; esta demostración comprueba que los botones mu
 - Una captura de la ejecución final con las 20 pruebas aprobadas.
 - Esta tabla completada en el README y una explicación oral de los aportes.
 
-| Integrante | Usuario de GitHub | Qué desarrolló | Enlace a su commit |
-|---|---|---|---|
-| Andres Paqui | PatoTactico | Implementación del método buscarPorAsiento en Cola "*R2*"| [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/f1889a489434d5a983bf360bc5708a91743caee9) |
+| Integrante   | Usuario de GitHub | Qué desarrolló                                            | Enlace a su commit |
+|--------------|-------------------|-----------------------------------------------------------|---|
+| Andres Paqui | PatoTactico       | Implementación del método buscarPorAsiento en Cola "*R2*" | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/f1889a489434d5a983bf360bc5708a91743caee9) |
+| Steven Vaca  | Stevenzzv         | Validacion de datos en cancelación de Pasajero"*R3*"      | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/98bc9e3c5541687943c5ac50c82f502e593b9268) |
 
 Cada estudiante debe subir su aporte con su cuenta y comprobar que GitHub lo muestre como autor. Si utilizan Git local, el correo configurado debe estar asociado a esa cuenta. No compartir cuentas. No es obligatorio usar ramas o pull requests: pueden trabajar por turnos e integrar sus cambios, conservando los aportes individuales.
 
