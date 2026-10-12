@@ -12,6 +12,11 @@ public class Cola {
         coleccion = new LinkedList<>();
     }
 
+    public static boolean esAlfanumerico(String texto) {
+        // Permite solo letras (mayúsculas/minúsculas) y números (0-9)
+        return texto.matches("^[a-zA-Z]+$");
+    }
+
     public void agregar(Pasajero p) {
         if (p == null) {
             throw new IllegalArgumentException("El pasajero no puede ser nulo");
@@ -20,8 +25,10 @@ public class Cola {
         // TODO R1: validar nombre, asiento entre 1 y 30 y asiento no repetido.
         // Validar ANTES de modificar la colección.
 
-        if(p.getNombre() == null || p.getNombre().trim().isEmpty()) {
-            throw new IllegalArgumentException("El nombre del pasajero no puede estar vacio");
+
+
+        if(p.getNombre() == null || p.getNombre().trim().isEmpty() || (!esAlfanumerico(p.getNombre()))) {
+            throw new IllegalArgumentException("El nombre del pasajero no puede estar vacio o tener caracteres especiales.");
         }
 
         int asiento = p.getNumeroAsiento();
