@@ -29,6 +29,13 @@ public class Cola {
             throw new IllegalArgumentException("El numero del asiento debe estar entre 1 y 30");
         }
 
+        // Asiento repetido: se recorre la fila antes de agregar
+        for (Pasajero otro : coleccion) {
+            if (otro.getNumeroAsiento() == asiento) {
+                throw new IllegalArgumentException(
+                        "El asiento " + asiento + " ya esta ocupado");
+            }
+        }
 
         coleccion.offer(p);
     }
