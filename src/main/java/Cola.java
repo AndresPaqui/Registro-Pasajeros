@@ -20,6 +20,23 @@ public class Cola {
         // TODO R1: validar nombre, asiento entre 1 y 30 y asiento no repetido.
         // Validar ANTES de modificar la colección.
 
+        if(p.getNombre() == null || p.getNombre().trim().isEmpty()) {
+            throw new IllegalArgumentException("El nombre del pasajero no puede estar vacio");
+        }
+
+        int asiento = p.getNumeroAsiento();
+        if(asiento <1 || asiento >30){
+            throw new IllegalArgumentException("El numero del asiento debe estar entre 1 y 30");
+        }
+
+        // Asiento repetido: se recorre la fila antes de agregar
+        for (Pasajero otro : coleccion) {
+            if (otro.getNumeroAsiento() == asiento) {
+                throw new IllegalArgumentException(
+                        "El asiento " + asiento + " ya esta ocupado");
+            }
+        }
+
         coleccion.offer(p);
     }
 
