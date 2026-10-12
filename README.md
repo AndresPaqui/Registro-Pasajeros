@@ -151,6 +151,9 @@ Las pruebas verifican el modelo; esta demostración comprueba que los botones mu
 | Valeria Caceres | valeria5c | Implementado el metodo posicionPorAsiento "*R2*"                     | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/00e5607b6fa469e5ae65c4c9443ef56e41caf943) |
 | Rafaela Ludeña | RafaLu11   | Implementación: Bucle que retorna el asiento del pasajero encontrado y lanza una exepción de no ser el caso "*R3*" | [Link](https://github.com/AndresPaqui/Registro-Pasajeros/commit/9d0211796f7328911296de07d8def55027e2d7da) |
 
+![Prueba 1](src/main/assets/Prueba1.png)
+![Prueba 2](src/main/assets/Prueba2.png)
+
 Cada estudiante debe subir su aporte con su cuenta y comprobar que GitHub lo muestre como autor. Si utilizan Git local, el correo configurado debe estar asociado a esa cuenta. No compartir cuentas. No es obligatorio usar ramas o pull requests: pueden trabajar por turnos e integrar sus cambios, conservando los aportes individuales.
 
 ## Rúbrica con tres criterios sobre 100 puntos
